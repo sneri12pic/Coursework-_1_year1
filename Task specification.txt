@@ -1,0 +1,14 @@
+Produce a command line application, called csource,
+that reads in a .c file containing C source code, and outputs the following
+to the console:
+
+1. The total number of lines in the .c file (including any blank lines).
+2. The number of characters in the .c file, excluding newlines, spaces and tabs.
+3. The number of comments in the file. You only need to consider comments that begin with //, and you can assume that a space separates
+	the // from the first character of the comment.
+4. The number of variables declared in the input .c file.
+
+This includes local variables declared in functions, and function parameters. Your application only needs to consider variables of type int, double, and
+char, and their corresponding array and pointer types. For simplicity you may assume that every variable name will be followed by white space, e.g. int x = 5 ;
+Finally, your application should produce an output file listing each variable declared in the .c file, and a count of the number of times that variable 1 
+is referenced in the code after the line on which it is declared.
